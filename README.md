@@ -1,5 +1,4 @@
 
-```markdown
 # AD & Cloud Security Baseline (`ad-cloud-security-baseline`)
 
 An enterprise-grade, zero-dependency hybrid security baseline establishing cryptographic trust boundaries between Active Directory and AWS. This repository enforces least-privilege IAM federation, automated IaC static analysis, and native Active Directory security hardening without external RSAT dependencies.
@@ -8,7 +7,7 @@ An enterprise-grade, zero-dependency hybrid security baseline establishing crypt
 
 ## Architecture Overview
 
-```text
+
                      ┌─────────────────────────────────────────┐
                      │          Active Directory Domain        │
                      │  - Zero-Dependency Audit ([adsisearcher])│
